@@ -55,7 +55,7 @@ function draw() {
   }
   if(mouseX>(midPointX+deadZone)){
     image(fighter2, fighter2X-fighter2.width, fighterY);
-    fighter1= loadImage(fighters1Image[fighter1Index]);
+    //fighter1= loadImage(fighters1Image[fighter1Index]);
   } else {
     image(fighter2, fighter2X, fighterY, -(dim+width/40), dim+height/25);
   }
@@ -76,13 +76,14 @@ function draw() {
     //fighter1= loadImage(fighters1Image[fighter1Index]);
   }else{
   }
+
   if(mouseX<midPointX){
     fighter2Index=(fighter2Index+1)%fighters2Image.length;
 
     if(fighter2Index<0){
       fighter2Index=fighter2Index+(-1);
     }
-    fighter2= loadImage(fighters2Image[fighter2Index]);
+    //fighter2= loadImage(fighters2Image[fighter2Index]);
   }else{
   }
 }
