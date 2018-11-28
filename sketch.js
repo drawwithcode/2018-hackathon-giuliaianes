@@ -88,37 +88,6 @@ function draw() {
 }
 
 
-
-  /*if(fighter1Life>0){
-    if(mouseX<(midPointX-deadZone)){
-      if(dim>width/8){
-        fighter1Life-=dim/15;
-      }
-    }
-  }else{
-    fighter1Life=maxLife;
-    fighter1Index=(fighter1Index+1)%fighters1Image.length;
-    fighter1= loadImage(fighters1Image[fighter1Index]);
-    fighter2Victory++;
-  }
-
-  if(fighter2Life>0){
-    if(mouseX>(midPointX+deadZone)){
-      if(dim>width/8){
-        fighter2Life-=dim/15;
-      }
-    }
-  }else{
-    fighter2Life=maxLife;
-    fighter2Index=(fighter2Index+1)%fighters2Image.length;
-
-    if(fighter2Index<0){
-      fighter2Index=fighter2Index+(-1);
-    }
-    fighter2= loadImage(fighters2Image[fighter2Index]);
-    fighter1Victory++;
-  }*/
-
 function freqGen() {
   var spectrum = frequency.analyze();
 
